@@ -1,0 +1,12 @@
+:root{
+    --gap-size:1rem;
+
+}
+
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    height: 300px;
+    width: calc(800px + calc(var(--gap-size) * 3));
+    gap:var(--gap-size);
+}
